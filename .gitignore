@@ -1,0 +1,35 @@
+# Dependencies & Virtual Environments
+.venv/
+*/.venv/
+venv/
+node_modules/
+frontend/node_modules/
+package-lock.json
+
+# Python caches & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+frontend/dist/
+build/
+*.egg-info/
+
+# Large datasets & binaries (Must stay under 10MB repository limit)
+*.csv
+backend/data/*.csv
+PS_20174392719_1491204439457_log.csv
+*.tar.gz
+*.zip
+
+# Local environment & IDE files
+.env
+.env.local
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
